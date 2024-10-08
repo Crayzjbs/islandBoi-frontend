@@ -25,7 +25,7 @@ html {
 }
 
 .navbar-link {
-  color: #115D81;
+  color: #115d81;
   /* Dark blue color */
   margin-right: 1rem;
   text-decoration: none;
@@ -49,6 +49,51 @@ html {
   justify-content: center;
   padding-top: 4rem;
   /* Add padding to avoid overlap with the fixed navbar */
+}
+
+.content-right {
+  color: white;
+  text-align: right;
+  padding: 2rem;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: 3rem;
+}
+
+.content-right h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.content-right h1 {
+  font-size: 10rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-weight: bold;
+}
+
+.content-right p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  font-weight: light;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.button-container {
+  gap: 1rem; /* Add space between buttons */
+}
+
+.activities-available {
+  margin-top: -2rem; /* Add some space above the section */
 }
 
 .button-container {
@@ -128,15 +173,15 @@ html {
 }
 
 .enjoy-activities {
-  background-image: url('./assets/media/act1.jpg');
+  background-image: url("./assets/media/act1.jpg");
 }
 
 .faq {
-  background-image: url('./assets/media/act2.jpg');
+  background-image: url("./assets/media/act2.jpg");
 }
 
 .seasonal-offers {
-  background-image: url('./assets/media/act3.jpg');
+  background-image: url("./assets/media/act3.jpg");
 }
 
 .footer {

@@ -16,17 +16,23 @@ const App = () => {
             Island Boi
           </div>
           <div className="space-x-4">
-            <a href="#home" className="navbar-link">
-              Home
+            <a href="#booknow" className="navbar-link">
+              Book Now
+            </a>
+            <a href="#offers" className="navbar-link">
+              Offers
+            </a>
+            <a href="#locations" className="navbar-link">
+              Location
+            </a>
+            <a href="#activity" className="navbar-link">
+              Activity
+            </a>
+            <a href="#gallery" className="navbar-link">
+              Gallery
             </a>
             <a href="#about" className="navbar-link">
               About
-            </a>
-            <a href="#services" className="navbar-link">
-              Services
-            </a>
-            <a href="#contact" className="navbar-link">
-              Contact
             </a>
           </div>
         </div>
@@ -36,13 +42,26 @@ const App = () => {
         className="main"
         style={{ backgroundImage: `url(${mainPageImage})` }}
       >
-        <div className="button-container">
-          <Button className="button" href="#book-now">
-            Book Now
-          </Button>
-          <Button className="button" href="#pricing">
-            Pricing
-          </Button>
+        <div className="content-right">
+          <h2>EXPERIENCE SAMAL AT</h2>
+
+          <h1>ISLAND BOI</h1>
+
+          <p>
+            Island Boi Beach House is your exclusive vacation home rental of
+            choice! The beach boasts of pristine waters, white sand shoreline,
+            and a beautiful view of Talikud Island. It is a perfect getaway for
+            every adventurer, family, and friends!
+          </p>
+
+          <div className="button-container">
+            <Button className="button" href="#book-now">
+              Book Now
+            </Button>
+            <Button className="button" href="#pricing">
+              Pricing
+            </Button>
+          </div>
         </div>
       </main>
 
