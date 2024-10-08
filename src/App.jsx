@@ -42,7 +42,51 @@ const App = () => {
           </Button>
         </div>
       </main>
+
+      <section className="activities-available">
+        <h2>Activities Available</h2>
+        <ul>
+          <li>Snorkeling</li>
+          <li>Hiking</li>
+          <li>Kayaking</li>
+          <li>Beach Volleyball</li>
+        </ul>
+      </section>
+
+      <section className="Main-About ">
+
+        <div>
+
+          About
+
+        </div>
+
+
+        
+      </section>
+
+      <section className="Main-Featured">
+
+        <div>
+          Features
+        </div>
+
+      </section>
+
+
+      <section className="Main-Calendar">
+        <div>
+          Calendar
+        </div>
+      </section>
+
+      <section className="">
+
+      </section>
+
+
     </>
+
   );
 };
 
