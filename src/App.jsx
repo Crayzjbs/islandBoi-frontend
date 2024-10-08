@@ -54,39 +54,19 @@ const App = () => {
       </section>
 
       <section className="Main-About ">
-
-        <div>
-
-          About
-
-        </div>
-
-
-        
+        <div>About</div>
       </section>
 
       <section className="Main-Featured">
-
-        <div>
-          Features
-        </div>
-
+        <div>Features</div>
       </section>
-
 
       <section className="Main-Calendar">
-        <div>
-          Calendar
-        </div>
+        <div>Calendar</div>
       </section>
 
-      <section className="">
-
-      </section>
-
-
+      <section className=""></section>
     </>
-
   );
 };
 
