@@ -58,8 +58,8 @@ const App = () => {
             <Button className="button" href="#book-now">
               Book Now
             </Button>
-            <Button className="button" href="#pricing">
-              Pricing
+            <Button className="button-2" href="#offers">
+              OFFERS
             </Button>
           </div>
         </div>
