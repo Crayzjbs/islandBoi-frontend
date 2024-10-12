@@ -6,6 +6,11 @@ import "./App.css";
 import act1 from "./assets/media/act 1.png";
 import act2 from "./assets/media/act 2.png";
 import act3 from "./assets/media/act 3.png";
+import aboutBg from "./assets/media/About page.png";
+import featureBg from "./assets/media/featured.png";
+import featureImg1 from "./assets/media/feature1.png";
+import featureImg2 from "./assets/media/feature2.png";
+import featureImg3 from "./assets/media/feature3.png";
 
 const App = () => {
   return (
@@ -83,14 +88,41 @@ const App = () => {
         </ul>
       </section>
 
-      <section className="section Main-About">
+      <section
+        className="section Main-About"
+        style={{
+          backgroundImage: `url(${aboutBg})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
         <h2>About</h2>
         <div>About content goes here...</div>
       </section>
 
-      <section className="section Main-Featured">
+      <section
+        className="section Main-Featured"
+        style={{
+          backgroundImage: `url(${featureBg})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center 0%",
+        }}
+      >
         <h2>Features</h2>
-        <div>Features content goes here...</div>
+        <div className="feature-container">
+          <div className="feature-image">
+            <img src={featureImg1} alt="Feature 1" />
+            Features content goes here...
+          </div>
+          <div className="feature-image2">
+            <img src={featureImg2} alt="Feature 2" />
+            Features content goes here..
+          </div>
+          <div className="feature-image3">
+            <img src={featureImg3} alt="Feature 3" />
+            Features content goes here..
+          </div>
+        </div>
       </section>
 
       <section className="section Main-Calendar">
