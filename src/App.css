@@ -226,6 +226,8 @@ html {
 }
 
 
+
+
 .feature-container {
   display: flex;
   justify-content: center;
@@ -245,8 +247,39 @@ html {
 
   height: auto;
   flex: 0 0 auto;
-  margin-top: 38rem;
+  margin-top: 30rem;
 }
+
+.footer-content-container {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+
+  padding: 1rem;
+
+
+}
+
+.Footer-logo,
+.Footer-navbar,
+.Footer-Contacts {
+  flex: 1;
+  text-align: center;
+
+}
+
+.Footer-logo {
+  text-align: left;
+
+}
+
+.Footer-Contacts {
+  text-align: right;
+}
+
+
+
 
 .footer {
   background-color: #f1f1f1;

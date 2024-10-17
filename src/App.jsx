@@ -11,6 +11,10 @@ import featureBg from "./assets/media/featured.png";
 import featureImg1 from "./assets/media/feature1.png";
 import featureImg2 from "./assets/media/feature2.png";
 import featureImg3 from "./assets/media/feature3.png";
+import featuretop from "./assets/media/unnamed infos.png";
+import calendarBG from "./assets/media/calendarBg1.png";
+import ReadyToBook from "./assets/media/RTB_BG.png";
+import FooterBG from "./assets/media/footerBG.png";
 
 const App = () => {
   return (
@@ -96,8 +100,8 @@ const App = () => {
           backgroundPosition: "center",
         }}
       >
-        <h2>About</h2>
-        <div>About content goes here...</div>
+        <h2></h2>
+        <div></div>
       </section>
 
       <section
@@ -105,10 +109,12 @@ const App = () => {
         style={{
           backgroundImage: `url(${featureBg})`,
           backgroundSize: "cover",
-          backgroundPosition: "center 0%",
+          backgroundPosition: "center -5%",
         }}
       >
-        <h2>Features</h2>
+        <div className="feature-top">
+          <img src={featuretop} alt="top" />
+        </div>
         <div className="feature-container">
           <div className="feature-image">
             <img src={featureImg1} alt="Feature 1" />
@@ -125,12 +131,28 @@ const App = () => {
         </div>
       </section>
 
-      <section className="section Main-Calendar">
+      <section
+        className="section Main-Calendar"
+        style={{
+          backgroundImage: `url(${calendarBG})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center 0%",
+          backgroundRepeat: "no-repeat",
+        }}
+      >
         <h2>Calendar</h2>
-        <div>Calendar content goes here...</div>
+        <div>text placeholder</div>
       </section>
 
-      <section className="section Main-ReadyToBook">
+      <section
+        className="section Main-ReadyToBook"
+        style={{
+          backgroundImage: `url(${ReadyToBook})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center 0%",
+          padding: "2rem",
+        }}
+      >
         <h2>Ready to Book</h2>
         <div>Ready to book content goes here...</div>
       </section>
@@ -140,8 +162,35 @@ const App = () => {
         <div>Location content goes here...</div>
       </section>
 
-      <footer className="footer Main-Footer">
-        <div>Footer content goes here...</div>
+      <footer
+        className="footer Main-Footer"
+        style={{
+          backgroundImage: `url(${FooterBG})`,
+          backgroundSize: "cover",
+          padding: "2rem",
+        }}
+      >
+        <div className="footer-content-container">
+          <div className="Footer-logo">Footer content goes here... asdada</div>
+          <div className="Footer-navbar">
+            Footer content goes here... asdada
+          </div>
+          <div className="Footer-Contacts">
+            Footer content goes here... asdada
+          </div>
+        </div>
+      </footer>
+
+      <footer
+        className="footer"
+        style={{
+          backgroundColor: "#021924",
+          padding: "1rem",
+          margin: "0",
+          height: "auto",
+        }}
+      >
+        <h2 style={{ margin: "0" }}>ALL RIGHTS RESERVED</h2>
       </footer>
     </>
   );
