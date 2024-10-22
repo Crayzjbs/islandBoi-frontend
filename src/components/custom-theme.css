@@ -1,0 +1,90 @@
+/* custom-theme.css */
+
+/* Change the background color of the calendar component */
+.rdr-Calendar {
+    background-color: #021924 !important;
+    /* Change to your desired color */
+}
+
+/* Change the background color of the month and year pickers */
+.rdr-MonthAndYearPickers {
+    background-color: #021924 !important;
+    /* Change to your desired color */
+}
+
+/* Change the background color of the weekdays */
+.rdr-WeekDays {
+    background-color: #021924 !important;
+    /* Change to your desired color */
+}
+
+/* Change the background color of the days */
+.rdr-Days {
+    background-color: #021924 !important;
+    /* Change to your desired color */
+}
+
+/* Change the color of the selected range */
+.rdr-Day.rdr-Day--selected,
+.rdr-Day.rdr-Day--selectedStart,
+.rdr-Day.rdr-Day--selectedEnd {
+    background: #ff9800 !important;
+    /* Change to your desired color */
+    color: #ffffff !important;
+    /* Change to your desired color */
+}
+
+/* Change the color of the in-range days */
+.rdr-Day.rdr-Day--inRange {
+    background: #ffcc80 !important;
+    /* Change to your desired color */
+    color: #ffffff !important;
+    /* Change to your desired color */
+}
+
+/* Additional custom styles */
+.rdr-MonthAndYearPickers select {
+    color: #ffffff !important;
+    /* Change text color */
+    background-color: #021924 !important;
+    /* Change background color */
+}
+
+.rdr-WeekDay {
+    color: #ffffff !important;
+    /* Change text color of weekdays */
+}
+
+.rdr-Day {
+    color: #ffffff !important;
+    /* Change text color of days */
+}
+
+.rdr-Day:hover {
+    background-color: #ff9800 !important;
+    /* Change hover background color */
+    color: #ffffff !important;
+    /* Change hover text color */
+}
+
+/* Make the calendar larger */
+.calendar-container .rdr-DateRange {
+    width: 100% !important;
+    /* Adjust the width of the calendar */
+    max-width: 1400px !important;
+    /* Set a maximum width for the calendar */
+    height: auto !important;
+    /* Ensure the height adjusts automatically */
+}
+
+.calendar-container {
+    display: flex;
+    justify-content: center;
+    /* Center the calendar horizontally */
+    align-items: center;
+    /* Center the calendar vertically */
+    width: 100%;
+    /* Ensure the container takes up the full width */
+    padding: 2rem;
+    /* Add padding around the container */
+}

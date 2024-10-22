@@ -1,0 +1,67 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.calendar-container {
+    display: flex;
+    justify-content: flex-end;
+    /* Align the calendar to the right */
+    align-items: center;
+    /* Center the calendar vertically */
+    width: 100%;
+    /* Ensure the container takes up the full width */
+    padding-right: 10rem;
+    /* Add padding to the right */
+}
+
+.calendar-container .rdr-DateRange {
+    width: 80% !important;
+    /* Adjust the width of the calendar */
+    max-width: 1200px !important;
+    /* Set a maximum width for the calendar */
+    height: auto !important;
+    /* Ensure the height adjusts automatically */
+}
+
+/* Change the background color of the calendar component */
+.calendar-container .rdr-Calendar {
+    background-color: #021924 !important;
+    /* Change to your desired color */
+}
+
+/* Change the background color of the month and year pickers */
+.calendar-container .rdr-MonthAndYearPickers {
+    background-color: #021924 !important;
+    /* Change to your desired color */
+}
+
+/* Change the background color of the weekdays */
+.calendar-container .rdr-WeekDays {
+    background-color: #021924 !important;
+    /* Change to your desired color */
+}
+
+/* Change the background color of the days */
+.calendar-container .rdr-Days {
+    background-color: #021924 !important;
+    /* Change to your desired color */
+}
+
+/* Change the color of the selected range */
+.calendar-container .rdr-Day.rdr-Day--selected,
+.calendar-container .rdr-Day.rdr-Day--selectedStart,
+.calendar-container .rdr-Day.rdr-Day--selectedEnd {
+    background: #ff9800 !important;
+    /* Change to your desired color */
+    color: #ffffff !important;
+
+}
+
+/* Change the color of the in-range days */
+.calendar-container .rdr-Day.rdr-Day--inRange {
+    background: #ffcc80 !important;
+    /* Change to your desired color */
+    color: #ffffff !important;
+    /* Change to your desired color */
+}

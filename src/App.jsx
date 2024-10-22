@@ -15,6 +15,7 @@ import featuretop from "./assets/media/unnamed infos.png";
 import calendarBG from "./assets/media/calendarBg1.png";
 import ReadyToBook from "./assets/media/RTB_BG.png";
 import FooterBG from "./assets/media/footerBG.png";
+import Calendar from "./components/calendar"; // Import the Calendar component
 
 const App = () => {
   return (
@@ -100,8 +101,8 @@ const App = () => {
           backgroundPosition: "center",
         }}
       >
-        <h2></h2>
-        <div></div>
+        <h2>About</h2>
+        <div>About content goes here...</div>
       </section>
 
       <section
@@ -140,8 +141,9 @@ const App = () => {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <h2>Calendar</h2>
-        <div>text placeholder</div>
+        <div className="calendar-container">
+          <Calendar /> {/* Render the Calendar component */}
+        </div>
       </section>
 
       <section
