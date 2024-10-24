@@ -15,7 +15,10 @@ import featuretop from "./assets/media/unnamed infos.png";
 import calendarBG from "./assets/media/calendarBg1.png";
 import ReadyToBook from "./assets/media/RTB_BG.png";
 import FooterBG from "./assets/media/footerBG.png";
-import Calendar from "./components/calendar"; // Import the Calendar component
+import Calendar from "./components/calendar";
+import R2B_1 from "./assets/media/R2B_pic1.png";
+import R2B_2 from "./assets/media/R2B_2.png";
+import LocBox from "./assets/media/location box.png";
 
 const App = () => {
   return (
@@ -155,13 +158,71 @@ const App = () => {
           padding: "2rem",
         }}
       >
-        <h2>Ready to Book</h2>
-        <div>Ready to book content goes here...</div>
+        <div className="R2B_1-container">
+          <div className="R2B_1">
+            <img src={R2B_1} alt="Picture 1" />
+          </div>
+          <div className="R2B-text">
+            <h2>
+              READY TO BOOK? <br />
+            </h2>
+          </div>
+          <div>
+            <p className="R2B-p">
+              Island Boi Beach House is your exclusive vacation home rental of
+              choice! The beach boasts of pristine waters, white sand shoreline,
+              and a beautiful view of Talikud Island. It is a perfect getaway
+              for every adventurer, family, and friends!
+            </p>
+          </div>
+        </div>
+
+        <div className="R2B_2-container">
+          <div className="R2B_2-text">
+            <h2>CHOOSE A DATE!</h2>
+          </div>
+          <p className="R2B_2-p">
+            Island Boi Beach House is your exclusive vacation home rental of
+            choice! The beach boasts of pristine waters, white sand shoreline,
+            and a beautiful view of Talikud Island. It is a perfect getaway for
+            every adventurer, family, and friends!
+          </p>
+          <div className="R2B_2">
+            <img src={R2B_2} alt="Picture 2" />
+          </div>
+        </div>
       </section>
 
       <section className="section Main-Location">
-        <h2>Location</h2>
-        <div>Location content goes here...</div>
+        <div className="location-container">
+          <div className="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3920.497888681944!2d125.7275393152044!3d7.073056994892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32f94a1f1f1f1f1f%3A0x1f1f1f1f1f1f1f1f!2sBabak%20-%20Samal%20-%20Kaputian%20Rd%2C%20Kaputian%2C%20Island%20Garden%20City%20of%20Samal%2C%20Davao%20del%20Norte!5e0!3m2!1sen!2sph!4v1611811234567!5m2!1sen!2sph&maptype=satellite"
+              width="600"
+              height="450"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
+              title="Google Maps Location"
+            ></iframe>
+          </div>
+          <div className="location-details">
+            <h1>
+              WHERE <br /> TO FIND US!
+            </h1>
+          </div>
+          <div className="absolute-description">
+            <p>
+              Island Boi Beach House is your exclusive vacation home rental of
+              choice! The beach boasts of pristine waters, white sand shoreline,
+              and a beautiful view of Talikud Island. It is a perfect getaway
+              for every adventurer, family, and friends!
+            </p>
+          </div>
+          <div className="Location_locBox">
+            <img src={LocBox} alt="location box" />
+          </div>
+        </div>
       </section>
 
       <footer
